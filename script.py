@@ -65,7 +65,7 @@ TECHNOLOGIES = {
 }
 DAYS_TO_CHECK = 5
 SLEEP_TIME = 5
-MAIL_TO = "sayam.k18@iiits.in"
+MAIL_TO = "sayam753@yahoo.in"
 EMAIL_FROM = "sayamkumar049@gmail.com"
 EMAIL_PASSWORD = os.environ.get("pass")
 MAIL_SERVER = "smtp.gmail.com"
