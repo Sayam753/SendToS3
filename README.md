@@ -30,28 +30,28 @@ Following parameters are configurable in the script:
 
 The only requirement is boto3 library which is used to send files to s3 bucket.
 
-    ```bash
-    pip install boto3
-    ```
+```bash
+pip install boto3
+```
 
 ### Prepare 11
 
 For AWS credentials, create a file ~/.aws/credentials and
 enter the details in the following format -
 
-    ```none
-    [default]
-    aws_access_key_id=<your-aws-access-key>
-    aws_secret_access_key=<your-aws-secret-key>
-    ```
+```none
+[default]
+aws_access_key_id=<your-aws-access-key>
+aws_secret_access_key=<your-aws-secret-key>
+```
 
 ### Prepare 12
 
 Add  an executable permission to the file.
 Now add a cronjob.
 
-    ```none
-    45 23 * * * /path/to/python_file.py
-    ```
+```none
+45 23 * * * /path/to/python_file.py
+```
 
 This means the script will run daily at 23:45:00 UTC
