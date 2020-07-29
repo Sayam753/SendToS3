@@ -1,13 +1,11 @@
 """
 Backup system to AWS S3 bucket.
 
-When the backup is uploaded, it should be
-SITE/TECHNOLOGY/HOSTNAME/YEAR/MONTH
+The backup is uploaded at SITE/TECHNOLOGY/HOSTNAME/YEAR/MONTH
 
-Logs should be created and emailed when the backup is done.
+Logs are created and emailed when the backup is done.
 
-We want the following parameters to be able to be
-configurable in the script:
+Following parameters are configurable in the script:
 
     1. Site from which logs are to be collected
     2. Hostname for the server
